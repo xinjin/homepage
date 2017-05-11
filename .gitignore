@@ -2,3 +2,5 @@
 *.bak
 .htaccess
 cgi-bin/
+*.sublime-project
+*.sublime-workspace
