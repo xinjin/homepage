@@ -41,6 +41,7 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="bio.html">Bio</a></li>
             <li><a href="publications.html">Publications</a></li>
             <li><a href="teaching.html">Teaching</a></li>
             <li><a href="services.html">Services</a></li>
@@ -66,12 +67,11 @@
 
 			<p class="lead">
             Email: xinjin (at) cs (dot) jhu (dot) edu<br>
-            [<a href="bio.html">Bio</a>]
             </p>
 
 		</div>
-			
-		<div class="col-md-12">
+
+		<div class="col-md-10">
 		<p class="lead"><small><br>
         I am an Assistant Professor in the
         <a href="http://cs.jhu.edu/">Department of Computer Science</a> at
@@ -89,10 +89,9 @@
         in June 2016,
         advised by Professor
 		<a href="http://www.cs.princeton.edu/~jrex/">Jennifer Rexford</a>.
-        I am a <a href="https://gradschool.princeton.edu/costs-funding/sources-funding/fellowships/competitive">
-        Princeton Honorific Fellow</a> and
-        a <a href="http://www.siebelscholars.com">Siebel Scholar</a>.
+	My research has won USENIX NSDI Best Paper Award (2018) and USENIX FAST Best Paper Award (2019).
         <br><br>
+
 
 		<b>I am looking for self-motivated
 		students to work with me at Hopkins.
@@ -110,40 +109,96 @@
         <h3>Research</h3>
         <p class="lead"><small>
         I work in computer networks and distributed systems, with a focus on
-        programmable switches, software-defined networking, cloud computing,
-        and big data systems. <br>
+        programmable switches, software-defined networking (SDN), cloud
+        computing, and big data systems. <br>
 
         <ul class="lead">
-            <li> Scaling distributed systems with programmable switches <ul>
-                <li> In-network chain replication for coordination
-			[<a href="index.html">NetChain, NSDI'18</a>]
-                </li>
-                <li> In-network caching for key-value storage
+            <li> <b>Programmable Networks</b>
+                <ul><li> In-network rack-scale scheduling
+                    [<a href="files/OSDI20_RackSched.pdf">RackSched, OSDI'20</a>]
+                    </li>
+
+		    <li> In-network coherence directories
+                    [<a href="files/OSDI20_Pegasus.pdf">Pegasus, OSDI'20</a>]
+                    </li>
+
+		    <li> In-network lock management
+                    [<a href="files/SIGCOMM20_NetLock.pdf">NetLock, SIGCOMM'20</a>]
+                    </li>
+
+                    <li> In-network conflict detection
+                    [<a href="files/VLDB19_Harmonia.pdf">Harmonia, VLDB'19</a>]
+                    </li>
+
+                    <li> Distributed in-network caching
+                    [<a href="files/FAST19_DistCache.pdf">DistCache, FAST'19</a>]
+                    </li>
+
+                    <li> In-network chain replication
+                    [<a href="files/NSDI18_NetChain.pdf">NetChain, NSDI'18</a>]
+                    </li>
+
+                    <li> Fast in-network caching
                     [<a href="files/SOSP17_NetCache.pdf">NetCache, SOSP'17</a>]
-                </li>
-            </ul></li>
-            <li> Low-latency data analytics systems <ul>
-                <li> Network traffic analytics with sketches
-                    [<a href="files/SIGCOMM17_SketchVisor.pdf">SketchVisor, SIGCOMM'17</a>] </li>
-            </ul></li>
-            <li> Software-defined networking <ul>
-                <li> Managing big data transfers on optical WANs
-                    [<a href="files/SIGCOMM16_Owan.pdf">Owan, SIGCOMM'16</a>] </li>
-                <li> Controller composition
-                    [<a href="files/NSDI15_CoVisor.pdf">CoVisor, NSDI'15</a>] </li>
-                <li> Fast network update
-                    [<a href="files/SIGCOMM14_Dionysus.pdf">Dionysus, SIGCOMM'14</a>] </li>
-            </ul></li>
+                    </li>
+                </ul>
+            </li>
+
+            <li> <b>Systems + ML</b>
+                 <ul><li> Pipelined context switching
+	            [<a href="files/OSDI20_PipeSwitch.pdf">PipeSwitch, OSDI'20</a>]
+                    </li>
+
+
+		    <li> Efficient checkpoint for training
+                    [<a href="files/ICML20_LCCheckpoint.pdf">LC-Checkpoint, ICML'20</a>]
+                    </li>
+
+                    <li> Neural packet classification
+                    [<a href="files/SIGCOMM19_NeuroCuts.pdf">NeuroCuts, SIGCOMM'19</a>]
+                    </li>
+                </ul>
+            </li>
+
+             <li> <b>Low-Latency Systems for Data Analytics</b>
+                <ul><li> Graph Pattern Mining
+                    [<a href="files/OSDI18_ASAP.pdf">ASAP, OSDI'18</a>]
+                    </li>
+
+                    <li> Wide-area streaming analytics
+                        [<a href="files/SIGCOMM18_AWStream.pdf">AWStream, SIGCOMM'18</a>]
+                    </li>
+
+                    <li> Network traffic analytics
+                        [<a href="files/SIGCOMM17_SketchVisor.pdf">SketchVisor, SIGCOMM'17</a>]
+                    </li>
+               </ul>
+            </li>
+
+           <li> <b>Software-Defined Networking</b>
+                <ul><li> Managing big data transfers on optical WANs
+                        [<a href="files/SIGCOMM16_Owan.pdf">Owan, SIGCOMM'16</a>]
+                    </li>
+
+                    <li> Controller composition
+                        [<a href="files/NSDI15_CoVisor.pdf">CoVisor, NSDI'15</a>]
+                    </li>
+
+                    <li> Fast network update
+                        [<a href="files/SIGCOMM14_Dionysus.pdf">Dionysus, SIGCOMM'14</a>]
+                    </li>
+                </ul>
+            </li>
         </ul>
         </small></p>
 
 	<hr>
         <h3>Students</h3>
 	<p class="lead"><small><ul class="lead">
-          <li> <a href="http://www.cs.jhu.edu/~bzh1994">Zhihao Bai</a></li>
+          <li><a href="http://www.cs.jhu.edu/~bzh1994">Zhihao Bai</a></li>
+	  <li><a href="http://www.cs.jhu.edu/~zhuolong/">Zhuolong Yu</a> (with Vova Braverman)</li>
           <li><a href="http://www.cs.jhu.edu/~hzhu">Hang Zhu</a></li>
 	</ul></small></p>
-
 
 		</div>
 	</div>
@@ -164,4 +219,3 @@
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
-
